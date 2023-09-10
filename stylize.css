@@ -1,0 +1,13 @@
+.image-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-container img {
+    
+    height: 150px;
+}
+
+.image-container.fade-in {
+    opacity: 1;
+}

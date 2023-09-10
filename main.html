@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styleMain.css">
+    
+    
+    <style>
+        body {
+            background-color: #ffffff; /* Ivory color */
+            font-family: Arial, sans-serif;
+           
+        }
+        button{
+            background-color: #000000; 
+            color:white; 
+            width: 200px; 
+            height: 50px ;
+
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #000000; ">
+        <table align='center' style="background-color: #000000; width: 50%;">
+            <tr align="center">
+                <td>
+                   
+                </td>
+                <td>
+                    <!-- <button id="scrollButtonAbout" >About</button> -->
+                    <p class="scroll-text" data-scroll-target="sectionA">About</p>
+                </td>
+                <td>
+                    <!-- <button id="scrollButtonSkills" >Skills</button> -->
+                    <p class="scroll-text" data-scroll-target="sectionS">Skills</p>
+                </td>
+                <td>
+                    <!-- <button id="scrollButtonProjects" >Projects</button> -->
+                    <p class="scroll-text" data-scroll-target="sectionP">Projects</p>
+                </td>
+                <td>
+                    <!-- <button id="scrollButtonResume" >Resume</button> -->
+                    <p class="scroll-text" data-scroll-target="sectionR">Resume</p>
+                </td>
+                <td>
+                    <!-- <button id="scrollButtonContact" >Contact</button> -->
+                    <p class="scroll-text" data-scroll-target="sectionC">Contact</p>
+                </td>
+                
+            </tr>
+        </table>
+    </header>
+    <br>
+
+    <!-- ABOUT -->
+    <div class="section" id="sectionA">
+        <img src="Intro.png">
+    </div>
+    <!-- SKILLS -->
+    <div class="section" id="sectionS" style="background-color: #000000;">
+        <!-- <div class="projects-container">
+            <div class="project-card">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <img src="D.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="project-card">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <img src="C.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            
+        </div> -->
+        <div class="slider-container">
+            <div class="image-slider">
+                <img src="C1.png" alt="Image 1">
+                <img src="D1.png" alt="Image 2">
+                
+            </div>
+            <button class="prev-button">Previous</button>
+            <button class="next-button">Next</button>
+        </div>
+        
+    
+    </div>
+
+    <br>
+    <div class="section" id="sectionP" style="background-image: url(https://img.freepik.com/free-vector/binary-code-streaming-numbers-horizonal_1017-37270.jpg?w=740&t=st=1694363958~exp=1694364558~hmac=cc47effd39f0894a6e5ff1f3dd25eb430fa7c384e535d3ad601ba27a4c0b174d);">
+        <h1 style="color: rgb(0, 0, 0); background-color: white; max-width: 200px; text-align: center; margin: 0 auto;">Projects</h1><br>
+
+        <div class="projectsCon">
+        <div class="projects">
+            <p style="text-align: center;"><a href="https://github.com/UmamaNajam/CollegeManagementSystem.git">College Management System</a>
+            </p>
+            </div><br>
+        <div class="projects"><p style="text-align: center;">
+            <a href="https://github.com/UmamaNajam/BoutiqueManagementSystem.git">Boutique Management System</a>
+        </p></div><br>
+        <div class="projects"><p style="text-align: center;">
+            <a href="https://github.com/UmamaNajam/Medical-Diagnostic-System.git">Medical Diagnostic System</a>
+        </p></div><br>
+        <div class="projects"><p style="text-align: center;">
+            <a href="https://github.com/UmamaNajam/CampusMate-Student-Utility-App.git">CampusMate: Student Utility Application</a>
+        </p></div>
+    </div><br>
+    <a href="https://github.com/UmamaNajam?tab=repositories" class="download-button">Find More</a>
+    </div>
+
+
+    <div class="section" id="sectionR" style="background-color: #000000;"><br>
+        <h1 style="align-items: center; color:white">Looking for a Web Developer?</h1>
+        <img src="Char.png" alt="Image 2"style="align:left; width:200px height:auto">
+        <p style="text-align: center; color:white; font-family:Arial, Helvetica, sans-serif; margin-left: 150px; margin-right: 150px;">If you are looking for a web developer who is passionate about building innovative and user-friendly web experiences, you are at the right place. I specialize in crafting elegant and intuitive user interfaces using HTML, CSS, and JavaScript and designing user-centric UI/UX. Download my resume to be a part to my amazing journey of becoming a developer.</p>
+        <a href="Resume.pdf" download="UmamaResume.pdf" class="download-button">Download Resume</a>
+    </div>
+
+
+    
+    <div class="section" id="sectionC"><br>
+            <h1 style="align-items: center; color:rgb(0, 0, 0)">Contact Me</h1>
+            <form action="mailto:umamanajam0@gmail.com" method="post" enctype="text/plain" style="align-items: center;">
+                <div class="form-group">
+                    <label for="name" style="color:#0061A7">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" style="color:#0061A7" >Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" style="color:#0061A7">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Send Message">
+                </div>
+                OR
+                <div class="c">
+                    <p>Send me an email at umamanajam0@gmail.com</p>
+                </div>
+            </form>
+        
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Umama Najam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Mainscript.js"></script>
+        
+    </script>
+</body>
+</html>

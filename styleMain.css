@@ -1,0 +1,209 @@
+header {
+    
+    text-align: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears on top of other content */
+}
+
+.c {
+    
+    margin: 10px auto;
+    background-color: #ffffff;
+    max-width: 1000px;
+    padding: 2px;
+    box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.356); 
+    border-radius: 5px;
+    color:#0061A7;
+}
+.section {
+    height: 500px;
+    width: 1330px;
+    background-color: #ffffff;
+    /* border: 1px solid #ccc; */
+    margin-bottom:10px;
+    text-align: center;
+    /* line-height: 500px;  */
+} 
+
+.scroll-text {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    white-space: nowrap; /* Prevent projects from stacking vertically */
+}
+
+.project-card {
+    width: 1330px;
+    height:500px;
+    background-color: #000000;
+    color:white;
+   
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #0061A7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    
+    position: inherit;
+}
+
+.next-button {
+   
+    position: inherit;
+
+} */
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1330px;
+    margin: 0 auto;
+    /* overflow: hidden; Add overflow: hidden to hide any potential overflowed images */
+}
+
+.image-slider {
+    display: flex;
+    justify-content: left; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.image-slider img {
+    width:auto;
+    height: auto;
+    /* justify-content: center; /* Center the images horizontally */
+    /* align-items: center; */ 
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.prev-button {
+    left: 50px;
+    bottom:0;
+}
+
+.next-button {
+    right: 50px;
+    bottom:0;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underlines from the link */
+    border-radius: 4px; /* Rounded corners */
+
+    top: 70%;
+}
+
+.download-button:hover {
+    background-color: #1a1919; /* Hover background color */
+}
+
+
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #242222;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.projects{
+    vertical-align: center;
+    margin: 10px auto;
+    background-color: #ffffff;
+    max-width: 500px;
+    padding: 2px;
+    box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.356); 
+    border-radius: 5px;
+    color:#0061A7;
+}
+.projectsCon{
+    vertical-align: center;
+    background-color: #333;
+    margin: 10px auto;
+    max-width: 700px;
+    padding: 2px;
+    box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.356); 
+    border-radius: 5px;
+    color:#ffffff;
+    text-align: left;
+}
